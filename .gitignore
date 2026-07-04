@@ -1,0 +1,21 @@
+# Ambiente virtual / uv
+.venv/
+__pycache__/
+*.pyc
+
+# Variáveis de ambiente e segredos
+.env
+
+# Vector store / índices locais (gerados a partir dos dados, não versionar)
+*.sqlite3
+chroma/
+index/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Cache de debug da extração (JSON bruto por ano, duplica o conteúdo do .jsonl)
+digesto_ipb_1951-2026/_raw/
+
+# SO
+.DS_Store
